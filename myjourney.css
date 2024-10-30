@@ -47,3 +47,68 @@ h5{
     width: 200%;
     padding-bottom: 200px;
 }
+body {
+
+    font-family: 'Anton', sans-serif;
+    background-image: url("resource/bc4k.jpg");
+    background-size: cover;
+    min-height: 100vh;
+    color: white;
+    background-position: center;
+    
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes moveBackground {
+    0% {background-position: 0 0;}
+    100% {background-position: 100% 100%;}
+}
+
+
+header{
+    padding: 35px;
+    background-color: rgb(112, 150, 255);
+    border: none solid rgb(69, 124, 241);
+    text-align: center;
+    width: none; 
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal ;
+    font-size: 60px;
+    color: aliceblue;
+    text-align: center;
+    -webkit-text-stroke: 1.25px black ;
+    background:linear-gradient(45deg,rgb(24, 42, 64),rgb(123, 128, 130))
+}
+
+nav {
+    background-color: #fafafa;
+    padding: 10px;
+    text-align: center;
+    width: none;
+    position: sticky;
+    background:linear-gradient(45deg,rgb(33, 33, 56),rgb(223, 227, 247))
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-family: "Anton", sans-serif;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5em;
+}
+
+nav ul li a:hover {
+    color: #333;
+}

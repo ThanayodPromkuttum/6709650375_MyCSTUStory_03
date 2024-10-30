@@ -1,0 +1,258 @@
+h6{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: 20px;
+}
+
+h7{
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+list-style: none;
+padding: 0;
+margin: 5px;
+
+}
+
+h8{
+    padding-left: 1px;
+    font-family: "Anton", sans-serif;
+    color: rgb(165, 198, 199);
+    -webkit-text-stroke: 1px #090909;
+    font-size: 35px;
+    width: 200%;
+    padding-bottom: 200px;
+    float : left;
+    
+    
+}
+
+h9{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: 20px;
+}
+
+h10{
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+list-style: none;
+padding: 0;
+margin: 5px;
+
+}
+
+
+.skill{
+    background: linear-gradient(135deg, rgb(25, 34, 39)0%, rgb(54, 84, 96)100%);
+    text-transform: uppercase;
+    width: 500px;
+    margin: left auto;
+    margin-right: auto;
+    color: #fff;
+    padding: 20px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    list-style: none;
+    float: none;
+    
+    
+}
+.skill li{
+    margin: 20px 0;
+    padding: 10px;
+}
+.bar{
+    background: #353b48;
+    display: block;
+    height: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    overflow:hidden;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+.bar:hover{
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+.bar span{
+    height: 20px;
+    float: left;
+    background: linear-gradient(135deg, rgb(112, 158, 183)0%, rgb(57, 85, 96)100%);
+}
+.HTML{
+    width: 15%;
+    animation: HTML 6s;
+}
+.CSS{
+    width: 15%;
+    animation: CSS 6s;
+}
+.C{
+    width: 5%;
+    animation: C 6s;
+}
+@keyframes HTML{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 15;
+    }
+}
+@keyframes CSS{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 15%;
+    }
+}
+@keyframes C{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 5%;
+    }
+}
+
+<!---->
+
+
+
+
+.skilll{
+    background: linear-gradient(135deg, rgb(25, 34, 39)0%, rgb(54, 84, 96)100%);
+    text-transform: uppercase;
+    width: 500px;
+    margin: 60px auto;
+    color: #fff;
+    padding: 20px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    list-style: none;
+    float:left;
+    
+    
+}
+.skilll li{
+    margin: 20px 0;
+    padding: 10px;
+}
+.bar{
+    background: #353b48;
+    display: block;
+    height: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    overflow:hidden;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+   
+}
+.bar:hover{
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+.bar span{
+    height: 20px;
+    float: left;
+    background: linear-gradient(135deg, rgb(112, 158, 183)0%, rgb(57, 85, 96)100%);
+}
+.HTML2{
+    width: 100%;
+    animation: HTML2 6s;
+}
+.CSS2{
+    width: 100%;
+    animation: CSS2 6s;
+}
+.C2{
+    width: 100%;
+    animation: C2 6s;
+}
+@keyframes HTML2{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 15;
+    }
+}
+@keyframes CSS2{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 100%;
+    }
+}
+@keyframes C2{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 100%;
+    }
+}
+
+body {
+
+    font-family: 'Anton', sans-serif;
+    background-image: url("resource/bc4k.jpg");
+    background-size: cover;
+    min-height: 100vh;
+    color: white;
+    background-position: center;
+    
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes moveBackground {
+    0% {background-position: 0 0;}
+    100% {background-position: 100% 100%;}
+}
+
+
+header{
+    padding: 35px;
+    background-color: rgb(112, 150, 255);
+    border: none solid rgb(69, 124, 241);
+    text-align: center;
+    width: none; 
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal ;
+    font-size: 60px;
+    color: aliceblue;
+    text-align: center;
+    -webkit-text-stroke: 1.25px black ;
+    background:linear-gradient(45deg,rgb(24, 42, 64),rgb(123, 128, 130))
+}
+
+nav {
+    background-color: #fafafa;
+    padding: 10px;
+    text-align: center;
+    width: none;
+    position: sticky;
+    background:linear-gradient(45deg,rgb(33, 33, 56),rgb(223, 227, 247))
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-family: "Anton", sans-serif;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5em;
+}
+
+nav ul li a:hover {
+    color: #333;
+}
