@@ -1,0 +1,476 @@
+header{
+    padding: 35px;
+    background-color: rgb(112, 150, 255);
+    border: none solid rgb(69, 124, 241);
+    text-align: center;
+    width: none; 
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal ;
+    font-size: 60px;
+    color: aliceblue;
+    text-align: center;
+    -webkit-text-stroke: 1.25px black ;
+    background:linear-gradient(45deg,rgb(24, 42, 64),rgb(123, 128, 130))
+}
+
+nav {
+    background-color: #fafafa;
+    padding: 10px;
+    text-align: center;
+    width: none;
+    position: sticky;
+    background:linear-gradient(45deg,rgb(33, 33, 56),rgb(223, 227, 247))
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-family: "Anton", sans-serif;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5em;
+}
+
+nav ul li a:hover {
+    color: #333;
+}
+
+.portfolio {
+    
+    border-radius: 8px;
+    border:5px solid  rgb(24, 42, 64);
+    max-width: fit-content;
+}
+
+main {
+    padding: 20px;
+    float: none;
+    width: 45%;
+    padding-top: 20px;
+    height: 40px;
+   
+}
+
+.future {
+    padding: 20px;
+    float: none;
+    width: 45%;
+    padding-top: 20px;
+    height: 40px;
+    margin-left: 540px;
+    margin-right: 540px;
+    
+}
+
+
+.About-text{
+    padding-top: 40px;
+    font-family: "Anton", sans-serif;
+    color: white;
+    -webkit-text-stroke: 1px #333;
+    font-size: 35px;
+}
+
+
+h2{
+    padding-top: 70px;
+    font-family: "Anton", sans-serif;
+    color: white;
+    -webkit-text-stroke: 1px #333;
+    font-size: 60px;
+}
+h3{
+  
+    padding-left: 120px;
+    font-family: "Anton", sans-serif;
+    color: white;
+    -webkit-text-stroke: 1px #333;
+    font-size: 35px;
+    width: 125%;
+ 
+    
+
+}
+
+.mypic{
+    max-width: 300px;
+    border-radius: 10px;
+    float:left;
+    border:5px solid rgb(24, 42, 64);
+    margin-right: 50px;
+    padding-bottom: none;
+    margin-bottom: 150px;
+    
+    
+
+}
+
+
+body {
+
+    background-image: url("resource/bc4k.jpg");
+    background-size: cover;
+    background-repeat: repeat-x;
+    animation: moveBackground 150s infinite linear;
+    min-height: 100vh;
+}
+
+@keyframes moveBackground {
+    0% {background-position: 0 0;}
+    100% {background-position: 100% 100%;}
+}
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+.wrapper {
+  display: inline-flex;
+}
+.wrapper .icon {
+  margin: 0 20px;
+  text-align: center;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  z-index: 2;
+  text-decoration: none;
+  transition: 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.wrapper .icon span {
+  display: block;
+  height: 60px;
+  width: 60px;
+  color: #000;
+  background: #ffffff;
+  border-radius: 50%;
+  position: relative;
+  z-index: 2;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+  transition: 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.wrapper .icon span i {
+  line-height: 60px;
+  font-size: 25px;
+}
+.wrapper .icon .tooltip {
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  background: #000000;
+  color: #ffffff;
+  padding: 10px 18px;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 25px;
+  opacity: 0;
+  pointer-events: none;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+  transition: 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  -webkit-text-stroke: #000;
+}
+.wrapper .icon:hover .tooltip {
+  top: -70px;
+  opacity: 1;
+  pointer-events: auto;
+}
+.icon .tooltip:before {
+  position: absolute;
+  content: "";
+  height: 15px;
+  width: 15px;
+  background: inherit;
+  left: 50%;
+  bottom: -6px;
+  transform: translateX(-50%) rotate(45deg);
+}
+.wrapper .icon:hover span {
+  color: #000000;
+}
+.wrapper .icon:hover span,
+.wrapper .icon:hover .tooltip {
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.4);
+}
+.wrapper .facebook:hover span,
+.wrapper .facebook:hover .tooltip {
+  background: #3B5999;
+}
+.wrapper .twitter:hover span,
+.wrapper .twitter:hover .tooltip {
+  background: #46C1F6;
+}
+.wrapper .instagram:hover span,
+.wrapper .instagram:hover .tooltip {
+  background: #e1306c;
+}
+.wrapper .github:hover span,
+.wrapper .github:hover .tooltip {
+  background: #333;
+}
+.wrapper .youtube:hover span,
+.wrapper .youtube:hover .tooltip {
+  background: #DE463B;
+}
+ 
+.icon-facebook{
+    -webkit-text-stroke: none;
+}
+
+<!---->
+
+h4{
+    padding-left: none px;
+    font-family: "Anton", sans-serif;
+    color: white;
+    -webkit-text-stroke: 1px #333;
+    font-size: 60px;
+    width: 200%;
+    margin-right:none px;
+    padding-right: 30px;
+}
+
+p{
+    padding-left: 50px;
+    font-family: "Anton", sans-serif;
+    color: white;
+    -webkit-text-stroke: 1.25px #0e0d0d;
+    font-size: 25px;
+    width: 90%;
+    border:5px solid rgb(60, 98, 113);
+    border-radius: 10px;
+    max-width: fit-content;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    float: none;
+    margin-bottom: 50px;
+    clear: both;
+}
+.pic{
+    max-width: none;
+    border-radius: none ;
+    float:left;
+    border:none solid rgb(234, 239, 245);
+    margin-right: 50px;
+    padding-bottom: none;
+    margin-bottom: 150px;
+    
+    
+}
+
+h5{
+    padding-left: 120px;
+    font-family: "Anton", sans-serif;
+    color: rgb(165, 198, 199);
+    -webkit-text-stroke: 0.5px #090909;
+    font-size: 35px;
+    width: 200%;
+    padding-bottom: 200px;
+}
+
+<!---->
+
+h6{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: 20px;
+}
+
+h7{
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+list-style: none;
+padding: 0;
+margin: 5px;
+
+}
+
+h8{
+    padding-left: 1px;
+    font-family: "Anton", sans-serif;
+    color: rgb(165, 198, 199);
+    -webkit-text-stroke: 1px #090909;
+    font-size: 35px;
+    width: 200%;
+    padding-bottom: 200px;
+    float : left;
+    
+    
+}
+
+h9{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: 20px;
+}
+
+h10{
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+list-style: none;
+padding: 0;
+margin: 5px;
+
+}
+
+
+.skill{
+    background: linear-gradient(135deg, rgb(25, 34, 39)0%, rgb(54, 84, 96)100%);
+    text-transform: uppercase;
+    width: 500px;
+    margin: left auto;
+    margin-right: auto;
+    color: #fff;
+    padding: 20px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    list-style: none;
+    float: none;
+    
+    
+}
+.skill li{
+    margin: 20px 0;
+    padding: 10px;
+}
+.bar{
+    background: #353b48;
+    display: block;
+    height: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    overflow:hidden;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+.bar:hover{
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+.bar span{
+    height: 20px;
+    float: left;
+    background: linear-gradient(135deg, rgb(112, 158, 183)0%, rgb(57, 85, 96)100%);
+}
+.HTML{
+    width: 15%;
+    animation: HTML 6s;
+}
+.CSS{
+    width: 15%;
+    animation: CSS 6s;
+}
+.C{
+    width: 5%;
+    animation: C 6s;
+}
+@keyframes HTML{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 15;
+    }
+}
+@keyframes CSS{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 15%;
+    }
+}
+@keyframes C{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 5%;
+    }
+}
+
+<!---->
+
+
+
+
+.skilll{
+    background: linear-gradient(135deg, rgb(25, 34, 39)0%, rgb(54, 84, 96)100%);
+    text-transform: uppercase;
+    width: 500px;
+    margin: 60px auto;
+    color: #fff;
+    padding: 20px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    list-style: none;
+    float:left;
+    
+    
+}
+.skilll li{
+    margin: 20px 0;
+    padding: 10px;
+}
+.bar{
+    background: #353b48;
+    display: block;
+    height: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    overflow:hidden;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+   
+}
+.bar:hover{
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+.bar span{
+    height: 20px;
+    float: left;
+    background: linear-gradient(135deg, rgb(112, 158, 183)0%, rgb(57, 85, 96)100%);
+}
+.HTML2{
+    width: 100%;
+    animation: HTML2 6s;
+}
+.CSS2{
+    width: 100%;
+    animation: CSS2 6s;
+}
+.C2{
+    width: 100%;
+    animation: C2 6s;
+}
+@keyframes HTML2{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 15;
+    }
+}
+@keyframes CSS2{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 100%;
+    }
+}
+@keyframes C2{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 100%;
+    }
+}
+
