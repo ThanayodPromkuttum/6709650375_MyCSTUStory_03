@@ -264,3 +264,23 @@ main {
     height: 40px;
    
 }
+.future {
+    padding: 20px;
+    float: none;
+    width: 45%;
+    padding-top: 20px;
+    height: 40px;
+    margin-left: 540px;
+    margin-right: 540px;
+    
+}
+h4{
+    padding-left: none px;
+    font-family: "Anton", sans-serif;
+    color: white;
+    -webkit-text-stroke: 1px #333;
+    font-size: 60px;
+    width: 200%;
+    margin-right:none px;
+    padding-right: 30px;
+}
