@@ -1,0 +1,49 @@
+h4{
+    padding-left: none px;
+    font-family: "Anton", sans-serif;
+    color: white;
+    -webkit-text-stroke: 1px #333;
+    font-size: 60px;
+    width: 200%;
+    margin-right:none px;
+    padding-right: 30px;
+}
+
+p{
+    padding-left: 50px;
+    font-family: "Anton", sans-serif;
+    color: white;
+    -webkit-text-stroke: 1.25px #0e0d0d;
+    font-size: 25px;
+    width: 90%;
+    border:5px solid rgb(60, 98, 113);
+    border-radius: 10px;
+    max-width: fit-content;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    float: none;
+    margin-bottom: 50px;
+    clear: both;
+}
+.pic{
+    max-width: none;
+    border-radius: none ;
+    float:left;
+    border:none solid rgb(234, 239, 245);
+    margin-right: 50px;
+    padding-bottom: none;
+    margin-bottom: 150px;
+    
+    
+}
+
+h5{
+    padding-left: 120px;
+    font-family: "Anton", sans-serif;
+    color: rgb(165, 198, 199);
+    -webkit-text-stroke: 0.5px #090909;
+    font-size: 35px;
+    width: 200%;
+    padding-bottom: 200px;
+}
